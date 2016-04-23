@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="sustainablehealthsolutionsllc.bitecounter.AboutUs"
+    android:background="@drawable/backrepeat">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/crookston"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="8pt"
+            android:layout_marginTop="5dp"
+            android:text="Benjamin Crookston, PhD, MPH. I have worked for the last 10 years addressing children's nutrition, growth, and health in Asia, Africa and Latin America. I care deeply about providing people everywhere with the opportunity to lead happy and healthy lives. I joined COUNTBITES because I believe that portion control is a sustainable approach to healthy weight management while also benefitting people living in resource-poor settings (Bites4Bites). I completed a master degree in public health from Brigham Young University and a doctoral degree from the University of Utah. I currently work as an Assistant Professor at Brigham Young University. In my spare time, I love spending time with my family, mountain biking, and being outdoors."
+            android:textAlignment="center"
+            android:textColor="#E1E1E1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/hall"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="8pt"
+            android:layout_marginTop="5dp"
+            android:text="Cougar Hall, PhD. I am currently an assistant professor in the Department of Health Science at Brigham Young University. For almost 20 years I have lectured on micro- and macro-nutrients, promoted the Dietary Guidelines for Americans, and encouraged the counting and tracking of calories. I understand the qualitative differences in nutritional choices, and yet in the fight against obesity I am willing to lose a battle to win the war! In my professional opinion counting bites is the best way for overweight and obese individuals to measure and monitor dietary intake on their path to a healthy weight. I have a masters degree in health promotion and education and a PhD in teaching and learning.  I am crazy about my wife and kids, mountain biking, trail running, Pearl Jam, and bite counting. "
+            android:textAlignment="center"
+            android:textColor="#E1E1E1"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/west"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="8pt"
+            android:layout_marginTop="5dp"
+            android:text="Josh West, PhD, MPH. I co-developed this concept with my friends and colleagues. I am passionate about health and research to change behaviors and help people live healthy and happy lives. I completed a masters degree in public health at San Diego State University where I worked in behavioral epidemiology. I completed my PhD in health behavior at the University of California, San Diego. My goal is that this approach to eating becomes the first viable solution for the public in this fight against obesity. Let’s do this!"
+            android:textAlignment="center"
+            android:textColor="#E1E1E1"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

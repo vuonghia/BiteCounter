@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+
+        android:background="@drawable/circle_button"
+        android:onClick="counter"
+        android:id="@+id/button_circle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|center_horizontal"/>
+</LinearLayout>
